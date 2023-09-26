@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analizador de Sentimientos</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/funciones.js"></script>
+</head>
+<body>
+    <h1>Analizador de Sentimientos</h1>
+    <form id="userForm">
+        <textarea id="userPrompt" name="user_prompt" rows="4" cols="50" required></textarea>
+        <br>
+        <button type="button" onclick="analizarSentimientos(); mostrarResultado();">Analizar Sentimientos</button>
+    </form>
+    <p id="sentimiento"></p> <!-- Mostrará el sentimiento -->
+    <p id="errorMensaje" style="color: red;"></p> <!-- Mostrará mensajes de error -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the whole viewport height is covered */
+    background-image: url('../static/images/background.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box; /* Ensure padding and border don't affect width */
+}
+
+button {
+    display: block;
+    margin: 20px auto 10px auto; /* Updated margin to center the button */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#errorMensaje {
+    margin-bottom: 10px;
+}
+
+#sentimiento {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    max-width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    display: none; /* Inicialmente oculto */
+}
+
+
